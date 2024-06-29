@@ -7,9 +7,12 @@ export default {
         'ligth-gray': '#A6A6A6',
         'dark-gray': '#545454',
         'pink': '#BB7272',
+        'pink-light':'#dfaea6',
+        'pink-medium':'#CD9898',
         'deep-blue': '#293f73',
         'yellow': '#ffc82c',
-        'purple-blue': '#3639ae'
+        'purple-blue': '#3639ae',
+        'gray-super-light': '#d3dce6'
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
