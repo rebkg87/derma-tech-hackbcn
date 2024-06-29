@@ -1,0 +1,13 @@
+@import './styles/fonts.css';
+/*@import '@icon/themify-icons/themify-icons.css';*/
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+body {
+  font-family: poppins;
+  font-weight: 500;
+}
