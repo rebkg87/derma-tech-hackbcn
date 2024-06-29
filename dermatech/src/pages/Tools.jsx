@@ -1,7 +1,10 @@
+import Filters from "../components/tools/Filters"
 
 const Tools = () => {
     return (
-        <div>Tools</div>
+        <div>
+            <Filters/>
+        </div>
     )
 }
 
