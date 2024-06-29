@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom';
 const Navbar = () => {
     return (
         <nav>
-            <div className="container p-6 flex-row mx-auto flex items-center justify-between shadow-slate-400">
-                <img className='h-8' src="\images\dermatech1.png" />
+            <div className="p-4 flex-row mx-auto flex items-center justify-between shadow w-screen">
+                <img className='h-12' src="\images\dermatech1.png" />
                 <div className="flex flex-row gap-4">
                     <Link to="/link1" className="text-ligth-gray hover:text-pink active:text-pink">Home</Link>
                     <Link to="/link2" className="text-ligth-gray hover:text-pink active:text-pink">Tools</Link>

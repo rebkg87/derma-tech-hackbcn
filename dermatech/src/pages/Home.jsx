@@ -1,7 +1,7 @@
 
 const Home = () => {
     return (
-        <div>Home</div>
+        <div className=" bg-ligth-gray w-screen h-screen">Home</div>
     )
 }
 
