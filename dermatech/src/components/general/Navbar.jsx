@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import Button from './Button';
 
 const Navbar = () => {
     return (
@@ -16,9 +17,7 @@ const Navbar = () => {
                         placeholder="Search..."
                         className="p-2 pl-4 rounded-full border-none bg-pink text-white placeholder-pink-light active:border-0 outline-none"
                     />
-                </div>
-                <div className="group fixed bottom-0 mb-8 mt-2 md:mb-8 md:mt-8 flex items-center justify-center align-middle w-14 h-14 rounded-[10px] transition-all duration-[0.5s] hover:bg-pink active:bg-pink cursor-pointer">
-                    <i className="ti ti-user leading-none text-center text-lg transition-all duration-[0.2s] hover:text-pink  active:text-pink active:animate-ping text-ligth-gray"></i>
+                    <Button buttonStyle="rounded-full bg-pink-light h-10 w-20 text-pink mt-0" buttonText="LOGIN"/>
                 </div>
             </div>
         </nav>
