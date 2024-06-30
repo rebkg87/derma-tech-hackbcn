@@ -44,8 +44,8 @@ const Filters = ({ onFilterChange }) => {
                 </div>
 
                 {/* Botón de aplicar filtros */}
-                <button onClick={handleFilterChange} className="bg-pink hover:bg-white hover:text-pink text-pink-light px-4 py-2 rounded-md focus:outline-none focus:bg-pink">
-                    Crear Rutina
+                <button onClick={handleFilterChange} className="bg-pink hover:bg-white hover:text-pink-light text-pink-light px-4 py-2 rounded-mdgi focus:outline-none focus:bg-pink">
+                    Crear Rutina 
                 </button>
             </div>
         </aside>
