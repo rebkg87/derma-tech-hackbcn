@@ -11,13 +11,15 @@ const Navbar = () => {
                     <Link to="/tools" className="text-ligth-gray hover:text-pink active:text-pink">Tools</Link>
                     <Link to="/learn" className="text-ligth-gray hover:text-pink active:text-pink">Learn</Link>
                 </div>
-                <div className="flex items-center space-x-4">
+                <div className="flex justify-center items-center space-x-4">
                     <input
                         type="text"
                         placeholder="Search..."
                         className="p-2 pl-4 rounded-full border-none bg-pink text-white placeholder-pink-light active:border-0 outline-none"
                     />
-                    <Button buttonStyle="rounded-full bg-pink-light h-10 w-20 text-pink mt-0" buttonText="LOGIN"/>
+                    <Link to="/login" >
+                        <Button buttonStyle="rounded-full bg-pink-light h-[3em] w-[6em] text-pink mt-[-1px]" buttonText="LOGIN" />
+                    </Link>
                 </div>
             </div>
         </nav>

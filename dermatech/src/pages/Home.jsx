@@ -2,7 +2,7 @@ import HomeText from "../components/home/HomeText"
 
 const Home = () => {
     return (
-        <section className=" bg-gray-super-light w-screen h-auto">
+        <section className=" bg-gradient-to-b from-gray-super-light to-transparent w-screen h-auto">
             <div className="p-8 flex flex-row justify-center items-center">
                 <HomeText title="Dermatech:"
                 subtitle= "Tu Compañero en el Cuidado de la Piel" text="En Dermatech, entendemos que cada piel es única. Nuestra misión es ayudarte a encontrar la rutina de skincare perfecta para ti, personalizada según tus necesidades y objetivos. Descubre productos recomendados y consejos expertos diseñados para mantener tu piel saludable y radiante.¡No esperes más para comenzar tu viaje hacia una piel perfecta! Haz clic en el botón a continuación para crear tu rutina personalizada y dar el primer paso hacia una piel más saludable." buttonStyle=" bg-pink border-pink-light border-solidhover:border-none text-pink-light border-radius-4 " buttonText="CREA TU RUTINA" />
