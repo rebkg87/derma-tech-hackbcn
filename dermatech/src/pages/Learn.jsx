@@ -1,7 +1,11 @@
+import HomeText from "../components/home/HomeText"
 
 const Learn = () => {
     return (
-        <div>Learn</div>
+        <div>
+            < HomeText/>
+            <img src="" alt="" />
+        </div>
     )
 }
 
