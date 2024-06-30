@@ -24,10 +24,10 @@ const Filters = ({ onFilterChange }) => {
                     <label htmlFor="skinType" className="block text-sm font-medium text-gray-700 mb-1">Tipo de piel</label>
                     <select id="skinType" name="skinType" value={skinType} onChange={(e) => setSkinType(e.target.value)} className=" w-48 h-6 pl-2 border-gray-300 text-xs rounded-md shadow-sm focus:border-pink focus:ring focus:ring-pink focus:ring-opacity-50">
                         <option className='text-xs text-dark-gray font-semibold focus:bg-pink-light' value="">Selecciona tipo de piel</option>
-                        <option className='text-xs text-dark-gray font-semibold focus:bg-pink-light'  value="seca">Piel seca</option>
-                        <option  className='text-xs text-dark-gray font-semibold focus:bg-pink-light' value="mixta">Piel mixta</option>
-                        <option  className='text-xs text-dark-gray font-semibold focus:bg-pink-light' value="grasa">Piel grasa</option>
-                        <option  className='text-xs text-dark-gray font-semibold focus:bg-pink-light' value="sensible">Piel sensible</option>
+                        <option className='text-xs text-dark-gray font-semibold focus:bg-pink-light' value="seca">Piel seca</option>
+                        <option className='text-xs text-dark-gray font-semibold focus:bg-pink-light' value="mixta">Piel mixta</option>
+                        <option className='text-xs text-dark-gray font-semibold focus:bg-pink-light' value="grasa">Piel grasa</option>
+                        <option className='text-xs text-dark-gray font-semibold focus:bg-pink-light' value="sensible">Piel sensible</option>
                     </select>
                 </div>
 
@@ -45,7 +45,7 @@ const Filters = ({ onFilterChange }) => {
 
                 {/* Botón de aplicar filtros */}
                 <button onClick={handleFilterChange} className="bg-pink hover:bg-white hover:text-pink-light text-pink-light px-4 py-2 rounded-mdgi focus:outline-none focus:bg-pink">
-                    Crear Rutina 
+                    Crear Rutina
                 </button>
             </div>
         </aside>
